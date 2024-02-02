@@ -1,0 +1,15 @@
+form{
+    display: grid;
+    border: 1px green solid;
+    text-align: center;
+    
+    height: 100vh;
+    font-size: 10em;
+}
+input{
+    height: 5vh;
+    width: 10vw;
+    font-size: 100%;
+    margin:0 auto;
+}
+
