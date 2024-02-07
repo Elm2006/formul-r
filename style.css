@@ -1,15 +1,16 @@
-form{
-    display: grid;
-    border: 1px green solid;
-    text-align: center;
-    
-    height: 100vh;
-    font-size: 10em;
-}
 input{
     height: 5vh;
     width: 10vw;
     font-size: 100%;
-    margin:0 auto;
 }
-
+form{
+    text-align: center;
+}
+.rubrik{
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    color:rgb(0, 256, 0);
+    font-size: 100px;
+}

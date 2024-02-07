@@ -7,27 +7,25 @@
       <title>Formulär</title>
     </head>
     <body>
-        <form>
+        <form action="skickat.html" method="get">
             <label for="text">Text</label><br>
             <input type="text" id="text" name="text"><br>
             <label for="text2">Text 2</label><br>
             <input type="text" id="text2" name="text2"><br>
-            <input type="radio"><br>
-            <section>
-                <label for="">Vilka saker har du?</label><br>
-            </section>
-            <section>
-                <input type="checkbox"> <label>Cykel</label><br>
-            </section>
-            <section>
-                <input type="checkbox"> <label>Tv</label><br>
-            </section>
-            <section>
-                <input type="checkbox"> <label>Talrik</label><br>
-            </section>
-            <section>
-                <input type="checkbox"> <label>Bestick</label><br>
-            </section>
+            <label class="rubrik">Gillar du lakrits?</label><br>
+            <input type="radio" id="ja" name="lakrits" value="ja">
+            <label for="ja">Ja</label><br>
+            <input type="radio" id="nej" name="lakrits" value="nej">
+            <label for="nej">Nej</label><br>
+            <label class="rubrik">Vilka saker har du?</label><br>
+            <input type="checkbox" id="cykel" name="saker" value="cykel"> 
+            <label for="cykel">Cykel</label><br>
+            <input type="checkbox" id="tv" name="saker" value="tv"> 
+            <label for="tv">Tv</label><br>
+            <input type="checkbox" id="talrik" name="saker" value="talrik"> 
+            <label for="talrik">Talrik</label><br>
+            <input type="checkbox" id="bestick" name="saker" value="bestick"> 
+            <label for="bestick">Bestick</label><br>
             <input type="submit" value="skicka"><br>
         </form>
     </body>
